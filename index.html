@@ -3,14 +3,54 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-<title>Joe Belardo | Delaware Music Network</title>
+<title>Dramayne “DJ” Ringold | Delaware Music Network</title>
+<meta name="description" content="Connect with Dramayne “DJ” Ringold, Board Member at Delaware Music Network.">
+<meta name="theme-color" content="#080d18">
 <style>
-html,body{margin:0;width:100%;height:100%;background:#000;overflow:hidden}
-body{display:flex;align-items:center;justify-content:center;min-height:100dvh}
-img{display:block;width:100%;height:100%;object-fit:contain;object-position:center;background:#000}
+*{box-sizing:border-box}
+html{background:#080d18;color:#f5f7fc;color-scheme:dark}
+body{margin:0;font-family:"Segoe UI",Helvetica,sans-serif;line-height:1.5;background:radial-gradient(ellipse at top right,#112747,transparent 60%);min-height:100vh;min-height:100dvh}
+main{width:min(100%,1050px);margin:auto;padding:24px 20px 48px;padding-bottom:max(48px,env(safe-area-inset-bottom))}
+.card{margin:0 0 32px;border:1px solid #263750;border-radius:12px;overflow:hidden;background:#05070b}
+.card img{display:block;width:100%;height:auto;object-fit:contain}
+.details{max-width:760px;margin:auto}
+.brand{margin:0 0 8px;color:#88b7ff;font-size:.78rem;font-weight:700;letter-spacing:.16em;text-transform:uppercase}
+h1{font-size:clamp(1.8rem,5vw,2.6rem);line-height:1.15;margin:0 0 10px;letter-spacing:-.035em}
+.role{margin:0 0 28px;color:#b9c6dc}
+h2{font-size:1rem;margin:28px 0 12px;color:#b9c6dc}
+.links{display:grid;gap:10px}
+.item{display:block;padding:15px 18px;border:1px solid #283b56;border-radius:10px;background:#0e192a;color:inherit;text-decoration:none;min-width:0;overflow-wrap:anywhere}
+.label{display:block;color:#8dbaff;font-size:.78rem;letter-spacing:.04em;margin-bottom:3px}
+a.item:hover{background:#172a45;border-color:#6b9ee9}
+a:focus-visible{outline:3px solid #9bc7ff;outline-offset:4px}
+a.item:active{background:#203a5c}
+@media(min-width:680px){main{padding-top:40px}.contact{grid-template-columns:1fr 1fr}.website{grid-column:1/-1}}
+@media(max-width:380px){main{padding-left:12px;padding-right:12px}.item{padding:14px}}
 </style>
 </head>
 <body>
-<img src="https://static.md/ee78fda6fdcff38dcece6cee7414261f.png" alt="Delaware Music Network business card">
+<main>
+  <figure class="card">
+    <img src="assets/dj-ringold-business-card.png" width="1050" height="600" alt="Dramayne “DJ” Ringold’s Delaware Music Network business card. Contact information is listed below." fetchpriority="high">
+  </figure>
+  <section class="details" aria-labelledby="name">
+    <p class="brand">Delaware Music Network</p>
+    <h1 id="name">Dramayne “DJ” Ringold</h1>
+    <p class="role">Board Member</p>
+    <h2>Contact</h2>
+    <div class="links contact">
+      <a class="item" href="tel:+13025016135"><span class="label">Office</span>302-501-6135</a>
+      <a class="item" href="mailto:ddrums215@gmail.com"><span class="label">Email</span>ddrums215@gmail.com</a>
+      <a class="item website" href="https://www.delawaremusicnetwork.org/"><span class="label">Website</span>www.delawaremusicnetwork.org</a>
+    </div>
+    <h2>Social &amp; events</h2>
+    <div class="links">
+      <a class="item" href="https://www.instagram.com/delaware_music_network/"><span class="label">Instagram</span>@delaware_music_network</a>
+      <a class="item" href="https://www.youtube.com/@DelawareMusicNetwork"><span class="label">YouTube</span>@DelawareMusicNetwork</a>
+      <div class="item"><span class="label">Facebook</span>Delaware Music Network</div>
+      <div class="item"><span class="label">Eventbrite</span>Delaware Music Network</div>
+    </div>
+  </section>
+</main>
 </body>
 </html>
